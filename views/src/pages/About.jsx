@@ -33,9 +33,9 @@ const About = () => {
           </div> */}
 
           <br />
-          <p>
+          {/* <p>
             If you have any questions or feedback about our project, please feel free to contact us.
-          </p>
+          </p> */}
         </div>
       </div>
       <Footer />
