@@ -186,12 +186,12 @@ const Home = () => {
               <Bulb fill='#ffffff' stroke='#ffffff' />&nbsp;
               Summarize
             </button>
-            <a href="/upload">
+            {/* <a href="/upload">
               <button type="button" className="text-white w-36 mt-3 flex flex-row bg-blue-700 hover:bg-blue-800 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5  justify-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-600">
                 <File fill='#ffffff' stroke='#ffffff' />&nbsp;
                 From File
               </button>
-            </a>
+            </a> */}
             <button onClick={resetFields} type="button" className="text-white w-36 mt-3 flex flex-row bg-blue-700 hover:bg-blue-800 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5  justify-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-600">
               <Reset fill='#ffffff' stroke='#ffffff' />&nbsp;
               Reset
