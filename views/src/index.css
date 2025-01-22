@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  color:black;
+  font-family: 'FredokaOne', sans-serif;
+  user-select: none;  
+}
+
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4d4d4d;
+  border-radius: 3px;
+}
+
+
+
+#default-navbar a.active{
+    color: rgb(75, 52, 252);
+}
+
+@font-face {
+  font-family:'FredokaOne';
+  src: url('./assets/fonts/FredokaOne.ttf');
+}
+
+@font-face {
+  font-family: 'Circular Black';
+  src: url('./assets/fonts/CircularStd-Black.otf');
+}
+
+@font-face {
+  font-family: 'skyer-400';
+  src: url('./assets/fonts/skyer-400.otf');
+}

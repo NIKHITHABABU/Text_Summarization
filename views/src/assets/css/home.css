@@ -1,0 +1,134 @@
+
+.inputtextarea {
+    width: 20rem;
+    height: 25rem;
+    border-radius: 10px;
+    resize: none;
+    border: none;
+    padding: 15px;
+    padding-left: 20px;
+    background-color: rgba(237, 232, 232, 0.438);
+}
+.inputtextarea:focus {
+    outline-color: rgb(59, 99, 129);
+}
+
+.inputtextareaocr {
+    margin-top: 50px;
+    width: 18rem;
+    height: 30rem;
+    border-radius: 10px;
+    resize: none;
+    border: none;
+    padding: 15px;
+    padding-left: 20px;
+    background-color: rgba(226, 226, 226, 0.796);
+}
+
+.inputtextareaocr:focus {
+    outline-color: rgb(59, 99, 129);
+}
+
+.output-wrapper{
+    position: relative;
+}
+
+.output-cpy-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.output-cpy-btn-ocr{
+    position: absolute;
+    right: 0;
+    top: 27px;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+    .inputtextarea {
+        width: 20rem;
+        height: 25rem;
+    }
+    .inputtextareaocr {
+        margin-top: 20px;
+        width: 25rem;
+        height: 35rem;
+    }
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+    .inputtextarea {
+        width: 25rem;
+        height: 20rem;
+    }
+    .inputtextareaocr {
+        margin-top: 30px;
+        width: 30rem;
+        height: 30rem;
+    }
+} 
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    .inputtextarea {
+        width: 45rem;
+        height: 35rem;
+    }
+    .inputtextareaocr {
+        width: 40rem;
+        height: 35rem;
+    }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+    .inputtextarea {
+        width: 30rem;
+        height: 30rem;
+    }
+    .inputtextareaocr {
+        width: 55rem;
+        height: 30rem;
+    }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+    .inputtextarea {
+        width: 30rem;
+        height: 30rem;
+    }
+    .inputtextareaocr {
+        width: 55rem;
+        height: 30rem;
+    }
+}
+
+/* Larger than Full HD */
+@media (min-width: 1400px) {
+    .inputtextarea {
+        width: 35rem;
+        height: 35rem;
+    }
+}
+
+/* Larger than 4K */
+@media (min-width: 1800px) {
+    .inputtextarea {
+        width: 40rem;
+        height: 40rem;
+    }
+}
