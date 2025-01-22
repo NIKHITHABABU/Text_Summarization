@@ -15,7 +15,7 @@ const About = () => {
           {/* <p >We are engineering students working on an AI-based text summarizer. We are passionate about using technology to solve real-world problems, and we believe that our text summarizer can help people save time and effort by providing them with concise and informative summaries of long texts.</p> <br /> */}
           <p className='indent-20'>
             Text summarizer is based on state-of-the-art machine learning techniques. It can summarize texts of any length, from short news articles to long research papers. It can also be used to summarize different types of texts, including news articles, scientific papers, blog posts.
-            Goal is to develop a text summarizer that is accurate, reliable,minimal, and easy to use. We want our text summarizer to be a valuable tool for students, researchers, professionals, and anyone else who needs to quickly understand the main points of a long text.
+            {/* Goal is to develop a text summarizer that is accurate, reliable,minimal, and easy to use. We want our text summarizer to be a valuable tool for students, researchers, professionals, and anyone else who needs to quickly understand the main points of a long text. */}
           </p>
           <br />
           {/* <p className='indent-20'>
